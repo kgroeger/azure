@@ -1,0 +1,34 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "adminUsername": {
+      "value": "kgroeger"
+    },
+    "adminPassword": {
+      "value": "Password-16Chars"
+    },
+    "userImageStorageAccountName": {
+      "value": "onlylowercase"
+    },
+    "dnsNameForFwPublicIP": {
+      "value": "Mgmt-DNS"
+    },
+    "dnsNameForNATPublicIP": {
+      "value": "natGW-DNS"
+    },
+    "fwvmName": {
+      "value": "FW-MachineName"
+    },
+    "fwVmSize": {
+      "value": "Standard_D3"
+    },
+    "fromGatewayLogin": {
+      "value": "yourIPAddress"
+    },
+    "IPAddressPrefix": {
+      "value": "172.16"
+    }
+  }
+}
+
